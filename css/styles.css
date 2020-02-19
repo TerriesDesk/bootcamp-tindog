@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .test {
@@ -19,6 +19,12 @@ h1 {
   font-weight: 900;
   line-height: 1.5;
 }
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  }
 
 h3 {
   font-size: 2rem;
@@ -61,13 +67,17 @@ p {
 }
 
 .hero-img {
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /*Features Section  */
 #features {
-  padding: 7% 15%;
+  padding: 4% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -83,3 +93,48 @@ p {
 .feature-icon:hover {
   color: #ff4c68;
 }
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* CTA Section */
+
+
+/* Footer  */
